@@ -1,0 +1,92 @@
+head {
+    text-decoration: none;
+    text-align: inline-block;
+}
+
+body {
+    background-image: url("../img/Dark_Nights-METAL_Promo.jpg");
+    color: yellow;
+    font-size: 24px;
+    font-family: Times, Times New roman, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: inline-block;
+    background-color;
+    padding-left: 50px;
+    display: inline-block;
+    text-decoration: none;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#dropdown {
+    text-align: inline-block;
+    display: inline-block
+}
+
+.dropdown a {
+    color: yellow;
+    text-decoration: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    color: yellow;
+    text-align: inline;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    color: yellow;
+    background-color: blue;
+    min-width: 160px;
+    box-shadow: padding: ;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#second-div {
+    text-decoration: none;
+    text-align: inline-block;
+    color: yellow;
+}
+
+#list a {
+    background: blue;
+    color: yellow;
+    position: ;
+    left: 50px;
+    top: 20px;
+    text-decoration: none;
+    display: inline-block;
+    align-items: center;
+    padding: 0px 25px;
+    word-wrap: normal;
+    color: yellow;
+    #list2 a {
+        background: blue;
+        color: yellow;
+        text-decoration: none;
+        position: relative;
+        padding-left: 0px 100px;
+    }
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    repeat: x;
+}
+
+#firstcss a {
+    color: yellow;
+    text-decoration: none;
+    text-align: inline;
+}
+
+html {}
