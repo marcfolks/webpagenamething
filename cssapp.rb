@@ -8,19 +8,17 @@ post'/money' do
 	inputamount =params[:jingle].to_i
     coins = change(inputamount)
 	stuff = hashconverter(coins)
- 	redirect '/money?inputamount=' + inputamount.to_s + '&stuff=' + stuff.to_s
+	erb :coinpage, :locals => { :stuff => stuff, :inputamount => inputamount,:coins => coins }
   	end
-get '/money' do
-	inputamount = params[:jingle]
-	coins = change(inputamount )
-	stuff = hashconverter(coins)
-	erb :coinpage, :locals => { :stuff => stuff, :inputamount => inputamount,:coins=>coins }
 
- end
-# post'/money' do
-# 	money = params[:money]
-# 	redirect '/?money=' + money 
-# 	end
+
+ post '/rpairs' do 
+	names = params[:pairs]
+	random_pairs = new_pairs(names)
+	nwpairs = random_pairs
+	erb :names, :locals => {:pairs=>pairs,:nwpairs=>nwpairs}
+	end
+
 
 
 
